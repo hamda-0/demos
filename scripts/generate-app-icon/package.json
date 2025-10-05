@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "build": "tsc",
+    "build": "node init && tsc",
     "generate-icons": "bun run build && node build/scripts/icons-set.js"
   },
   "devDependencies": {
